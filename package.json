@@ -1,0 +1,18 @@
+{
+    "name": "ants-frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "ants.ts",
+    "scripts": {
+        "prebuild": "rm -rvf dist/*",
+        "build": "cp $PWD/*.html dist/ && tsc",
+        "lint": "prettier $PWD/*.ts"
+        "env": "env"
+    },
+    "keywords": [],
+    "author": "Joren Van Onder <joren@jvo.sh>",
+    "license": "GPL-3.0-or-later",
+    "devDependencies": {
+        "prettier": "1.18.2"
+    }
+}
