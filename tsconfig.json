@@ -3,6 +3,7 @@
         "module": "system",
         "noImplicitAny": true,
         "removeComments": true,
+        "noEmitOnError": true,
         "outFile": "dist/js/ants.js",
         "sourceMap": true,
         "strict": true
