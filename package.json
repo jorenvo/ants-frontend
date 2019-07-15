@@ -4,8 +4,8 @@
     "description": "",
     "main": "ants.ts",
     "scripts": {
-        "prebuild": "prettier --list-different $PWD/*.ts && rm -rvf dist/*",
-        "build": "cp $PWD/*.html dist/ && tsc",
+        "prebuild": "prettier --list-different $PWD/*.ts && rm -rvf dist",
+        "build": "mkdir $PWD/dist && cp $PWD/*.html dist/ && tsc",
         "env": "env"
     },
     "keywords": [],
